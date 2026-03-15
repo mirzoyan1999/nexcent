@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "InterBold";
+  src: local("Inter_18pt-Bold"),
+    url("./assets/fonts/Inter_18pt-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterMedium";
+  src: local("Inter_18pt-Medium"),
+    url("./assets/fonts/Inter_18pt-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterRegular";
+  src: local("Inter_18pt-Regular"),
+    url("./assets/fonts/Inter_18pt-Regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "InterSemiBold";
+  src: local("Inter_18pt-SemiBold"),
+    url("./assets/fonts/Inter_18pt-SemiBold.woff") format("woff");
+}

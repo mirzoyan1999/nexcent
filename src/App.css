@@ -1,0 +1,616 @@
+/* main {
+  margin-top: 40px;
+} */
+
+header {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.solid-btn {
+  font-family: "InterMedium";
+  font-size: 14px;
+  line-height: 20px;
+  background-color: #4caf4f !important;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+header .actions {
+  display: flex;
+  gap: 15px;
+}
+
+div.header-actions div.actions .solid-btn {
+  font-family: "InterMedium";
+  font-size: 14px;
+  height: 40px;
+  line-height: 20px;
+  width: 91px;
+  height: 40px;
+  background-color: #4caf4f;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+}
+
+div.header-actions div.actions .login {
+  background: none;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4caf4f;
+  cursor: pointer;
+}
+
+/* Navbar start */
+
+.navbar .nav ul {
+  display: flex; /* հորիզոնական դասավորում */
+  gap: 80px; /* link-երի միջև տարածություն */
+  list-style: none; /*ոչ մի bullet
+  /* padding: 0; /* հեռացնում ենք default padding */
+  margin: 0; /* հեռացնում ենք default margin */
+  align-items: center; /* կենտրոնացնում ենք vertical*/
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.nav a {
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+.navbar .nav ul a {
+  font-size: 16px;
+  font-family: "InterMedium", sans-serif;
+  line-height: 24px;
+  color: #18191f;
+  transition: color 0.3s ease;
+}
+
+/* Navbar end   */
+
+/*  Carusel start   */
+
+.carusel-main {
+  margin-top: 40px;
+}
+
+.carusel-header {
+  /* margin-top: 65px; */
+  margin-bottom: 161px;
+}
+
+.lessons {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+}
+
+.lessons .years {
+  color: #4caf4f;
+}
+
+.carusel-container {
+  margin-top: 65px;
+}
+
+.carusel-container p {
+  margin-top: 16px;
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
+
+.carusel-container button {
+  margin-top: 32px;
+  width: 128px;
+  height: 52px;
+  background-color: #4caf4f;
+  font-family: "InterMedium";
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  outline: none; /* որպեսզի focus outline չլինի */
+  box-shadow: none; /* եթե Bootstrap կա, box-shadow չլինի */
+}
+
+/* Hover, Active և Focus override */
+.carusel-container button:hover,
+.carusel-container button:focus,
+.carusel-container button:active {
+  background-color: #4caf4f !important;
+  color: #ffffff !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.carusel-container button:hover {
+  background-color: #4caf4f;
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  background-color: #4caf4f;
+  border-radius: 50%;
+}
+
+/* Carusel end   */
+
+div.clients {
+  text-align: center;
+  margin-top: 40px;
+}
+
+div.clients h1 {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+div.clients p {
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
+
+div.clients .clients-logo {
+  margin-top: 25px;
+}
+
+.clients-logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Community start */
+
+div.community {
+  margin-top: 40px;
+  text-align: center;
+}
+
+div.community h1 {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  align-items: center;
+}
+
+div.community p {
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
+
+/*Community end  */
+
+/* Membership start */
+
+div.memberships {
+  display: flex;
+  margin-top: 50px;
+  justify-content: space-between;
+  /* flex-direction: row; */
+  text-align: center;
+}
+
+div.membership h3 {
+  font-family: "InterBold";
+  font-size: 28px;
+  line-height: 36px;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+div.membership p {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  text-align: center;
+}
+
+div.membership .img {
+  align-items: center;
+}
+
+/* Membership end */ 
+
+/* Pixelgrid */
+
+div.pixelgrids {
+  margin: 0;
+  margin-top: 82px;
+  display: flex;
+  flex-direction: row;
+}
+
+div.pixelgrids div.pixelgrid-main h1 {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+
+div.pixelgrids div.pixelgrid-main p {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  margin-top: 16px;
+}
+
+div.pixelgrids div.pixelgrid-main button {
+  margin-top: 32px;
+  width: 151px;
+  height: 52px;
+}
+
+/* Pixelgrid end */
+
+/* Achievements start  */
+div.achievements {
+  display: flex;
+  flex-direction: row;
+  margin-top: 84px;
+}
+
+div.achievements div.achievements-paragraph h1 {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+
+div.achievements div.achievements-paragraph p {
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #18191f;
+}
+
+div.achievements div.achievements-item h1 {
+  font-family: "InterBold";
+  font-size: 28px;
+  line-height: 36px;
+  color: #4d4d4d;
+  margin: 0;
+}
+div.achievements div.achievements-item p {
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 26px;
+  color: #717171;
+  margin: 0;
+}
+
+/* Achievements end */
+
+/* Calendar start */
+div.calendar {
+  display: flex;
+  flex-direction: row;
+  padding-top: 48px;
+}
+
+div.calendar div.calendar-footer h1 {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+}
+
+div.calendar div.calendar-footer p {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #717171;
+  margin-top: 16px;
+}
+
+div.calendar div.calendar-footer button {
+  width: 151px;
+  height: 52px;
+  margin-top: 32px;
+}
+
+/* Calendar end   */
+
+/* Customers start */
+div.customers {
+  display: flex;
+  flex-direction: row;
+  margin-top: 33px;
+}
+
+div.customers div.customers-footer p {
+  font-family: "InterMedium";
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+}
+
+div.customers div.customers-footer h1 {
+  font-family: "InterSemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  margin-top: 16px;
+}
+
+div.customers div.customers-footer .text {
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #89939e;
+  margin-top: 8px;
+}
+
+div.customers div.partners-logo {
+  margin-top: 32px;
+}
+
+div.customers div.partners-logo a {
+  font-family: "InterSemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  text-decoration: none;
+}
+
+div.customers div.partners-logo .customers-link img {
+  margin-left: 8px;
+}
+
+/* Customers end */
+
+/* Blog start */
+div.blog-hero {
+  margin-top: 48px;
+  margin-bottom: 118px;
+}
+
+div.blog-hero div.blog-hero_content h1 {
+  font-family: "InterSemiBold";
+  font-size: 36px;
+  line-height: 44px;
+  color: #4d4d4d;
+  text-align: center;
+}
+
+div.blog-hero div.blog-hero_content p {
+  font-family: "InterRegular";
+  font-size: 16px;
+  line-height: 24px;
+  color: #717171;
+  text-align: center;
+}
+
+div.blog-hero div.blog-card div.blog-card_card p {
+  font-family: "InterSemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  color: #717171;
+}
+
+div.blog-hero div.blog-card div.blog-card_card a {
+  font-family: "InterSemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  color: #4caf4f;
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  gap: 10px;
+}
+
+.blog-card {
+  width: 100%;
+  max-width: 368px;
+  margin-top: 16px;
+  height: auto; /* թող content-ը որոշի բարձրությունը */
+  border-radius: 8px;
+  background-color: #f5f7fa;
+  box-shadow: 0 8px 16px rgba(171, 190, 209, 0.4);
+  overflow: hidden; /* թույլ է տալիս image border-radius ճիշտ աշխատել */
+  padding: 16px; /* ընդհանուր padding */
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  background-size: cover; /* կամ contain, եթե ուզում ես ամբողջ width ներառել */
+  background-position: center;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(171, 190, 209, 0.5);
+}
+
+/* div.blog-card img {
+  background-image: url(../../assets/images/image_1.png);
+  background-image: url(./assets/images/image_2.png);
+  background-image: url(./assets/images/image_3.png);
+}  */
+
+div.blog-card div.blog-card_card img {
+  margin-left: 8px;
+  align-items: center;
+}
+
+/* div.blog-card_card {
+} */
+
+/* Blog end   */
+
+/* SectionText start  */
+
+div.section-text h1 {
+  font-family: "InterSemiBold";
+  font-size: 64px;
+  line-height: 78px;
+  color: #263238;
+  text-align: center;
+}
+
+div.section-text button {
+  width: 178px;
+  height: 52px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.section-text div.vector {
+  background-color: #263238;
+  width: 16px;
+  height: 16px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* SectionText end    */
+
+/* Footer start */
+
+.footer {
+  background-color: #263238;
+  margin-top: 40px;
+  padding-top: 66px;
+  padding-bottom: 64px;
+}
+
+.footer_header {
+  padding-top: 66px;
+  padding-bottom: 64px;
+}
+
+.company {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.footer p:nth-child(2) {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #f5f7fa;
+  margin-top: 40px;
+}
+
+.footer p:nth-child(3) {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #f5f7fa;
+  margin-top: 8px;
+}
+
+.social-icons {
+  margin-top: 40px;
+  gap: 16px;
+}
+
+.footer div.social_icons {
+  width: 32px;
+  height: 32px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.company {
+  flex-direction: column !important;
+  gap: 0;
+}
+
+div.company h6 {
+  font-family: "InterSemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+div.company .footer-link {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #f5f7fa;
+  text-decoration: none;
+  margin-top: 24px;
+}
+
+div.email {
+  position: relative;
+  width: max-content;
+}
+
+/* div.footer_email {
+  margin-top: 40px;
+} */
+
+.footer_email h6 {
+  font-family: "InterSemiBold";
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.footer_email div.email input {
+  font-family: "InterRegular";
+  font-size: 14px;
+  line-height: 20px;
+  color: #d9dbe1;
+  background-color: rgba(255, 255, 255, 0.2);
+  width: 255px;
+  height: 40px;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding-top: 9px;
+  padding-bottom: 11px;
+  padding-left: 12px;
+  border: 0;
+}
+
+div.email img {
+  position: absolute;
+  right: -1px;
+  top: 27px;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Footer end */
