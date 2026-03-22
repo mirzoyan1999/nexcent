@@ -20,48 +20,60 @@ function Blog() {
         </p>
       </Col>
       <Col md={4} className="text-center align-items-center    blog-card">
-        <div className="blog-card_card ">
-          <img src={Logo} alt="image_1" />
-          <p>Creating Streamlined Safeguarding Processes with OneRen</p>
-          <a
-            href="https://example.com/blog"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Readmore
-          </a>
-          <img src={Logo7} alt="vector" />
+        <div
+          className="blog-card_card"
+          style={{ backgroundImage: `url(${Logo})` }}
+        >
+          <div className="block">
+            <p>Creating Streamlined Safeguarding Processes with OneRen</p>
+            <a
+              href="https://example.com/blog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Readmore
+            </a>
+            <img src={Logo7} alt="vector" />
+          </div>
         </div>
       </Col>
       <Col md={4} className="text-center align-items-center  blog-card">
-        <div className="blog-card_card">
-          <img src={Logo1} alt="image_2" />
-          <p>
-            What are your safeguarding responsibilities and how can you manage
-            them?
-          </p>
-          <a
-            href="https://example.com/blog"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Readmore
-          </a>
-          <img src={Logo7} alt="vector" />
+        <div
+          className="blog-card_card"
+          style={{ backgroundImage: `url(${Logo1})` }}
+        >
+          <div className="block">
+            <p>
+              What are your safeguarding responsibilities and how can you manage
+              them?
+            </p>
+            <a
+              href="https://example.com/blog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Readmore
+            </a>
+            <img src={Logo7} alt="vector" />
+          </div>
         </div>
       </Col>
       <Col md={4} className="text-center align-items-center  blog-card">
-        <div className="blog-card_card">
-          <img src={Logo2} alt="image_3" />
-          <p>Revamping the Membership Model with Triathlon Australia</p>
-          <a
-            href="https://example.com/blog"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Readmore
-          </a>
-          <img src={Logo7} alt="vector" />
+        <div
+          className="blog-card_card"
+          style={{ backgroundImage: `url(${Logo2})` }}
+        >
+          <div className="block">
+            <p>Revamping the Membership Model with Triathlon Australia</p>
+            <a
+              href="https://example.com/blog"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Readmore
+            </a>
+            <img src={Logo7} alt="vector" />
+          </div>
         </div>
       </Col>
     </Row>

@@ -62,7 +62,7 @@ function Footer() {
             <h6>Company</h6>
             <a
               href="#"
-              className="footer-link d-block mb-1"
+              className="d-block mb-1"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -106,7 +106,7 @@ function Footer() {
             <h6>Support</h6>
             <a
               href="#"
-              className="footer-link d-block mb-1"
+              className="d-block mb-1"
               target="_blank"
               rel="noopener noreferrer"
             >

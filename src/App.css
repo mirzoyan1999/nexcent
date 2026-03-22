@@ -234,7 +234,7 @@ div.membership .img {
   align-items: center;
 }
 
-/* Membership end */ 
+/* Membership end */
 
 /* Pixelgrid */
 
@@ -388,6 +388,7 @@ div.customers div.partners-logo .customers-link img {
 div.blog-hero {
   margin-top: 48px;
   margin-bottom: 118px;
+  background-attachment: fixed;
 }
 
 div.blog-hero div.blog-hero_content h1 {
@@ -424,42 +425,38 @@ div.blog-hero div.blog-card div.blog-card_card a {
   gap: 10px;
 }
 
-.blog-card {
-  width: 100%;
+
+
+.blog-card_card {
   max-width: 368px;
+  padding-top: 160px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 27px;
+  padding-left: 27px;
   margin-top: 16px;
-  height: auto; /* թող content-ը որոշի բարձրությունը */
+  position: relative;
+}
+
+div.block {
+  height: 176px;
+  box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.4);
   border-radius: 8px;
   background-color: #f5f7fa;
-  box-shadow: 0 8px 16px rgba(171, 190, 209, 0.4);
-  overflow: hidden; /* թույլ է տալիս image border-radius ճիշտ աշխատել */
-  padding: 16px; /* ընդհանուր padding */
-  display: flex;
-  flex-direction: column;
-  background-repeat: no-repeat;
-  background-size: cover; /* կամ contain, եթե ուզում ես ամբողջ width ներառել */
-  background-position: center;
-  transition: transform 0.2s, box-shadow 0.2s;
+  padding: 16px;
 }
 
-.blog-card:hover {
+
+
+/* .blog-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(171, 190, 209, 0.5);
-}
-
-/* div.blog-card img {
-  background-image: url(../../assets/images/image_1.png);
-  background-image: url(./assets/images/image_2.png);
-  background-image: url(./assets/images/image_3.png);
-}  */
+} */
 
 div.blog-card div.blog-card_card img {
   margin-left: 8px;
   align-items: center;
 }
-
-/* div.blog-card_card {
-} */
 
 /* Blog end   */
 
@@ -559,7 +556,7 @@ div.company h6 {
   color: #ffffff;
 }
 
-div.company .footer-link {
+footer div.company a {
   font-family: "InterRegular";
   font-size: 14px;
   line-height: 20px;
@@ -568,14 +565,18 @@ div.company .footer-link {
   margin-top: 24px;
 }
 
+footer div.company .footer-link {
+  margin-top: 12px;
+}
+
+
+
 div.email {
   position: relative;
   width: max-content;
 }
 
-/* div.footer_email {
-  margin-top: 40px;
-} */
+
 
 .footer_email h6 {
   font-family: "InterSemiBold";
@@ -588,7 +589,6 @@ div.email {
   font-family: "InterRegular";
   font-size: 14px;
   line-height: 20px;
-  color: #d9dbe1;
   background-color: rgba(255, 255, 255, 0.2);
   width: 255px;
   height: 40px;
@@ -598,6 +598,11 @@ div.email {
   padding-bottom: 11px;
   padding-left: 12px;
   border: 0;
+}
+
+.footer_email div.email input::placeholder { 
+  color: #d9dbe1;
+  opacity: 1;
 }
 
 div.email img {
